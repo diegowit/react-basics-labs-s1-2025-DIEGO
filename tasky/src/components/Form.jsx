@@ -16,9 +16,20 @@ const AddTaskForm = (props) => {
         <input type="date" name="deadline" required onChange={(event) => props.change(event)} />
     </label>
     <br />
+ 
+
     <label>
         Details:
         <input type="text" name="description" onChange={(event) => props.change(event)} />
+    </label> 
+
+    <label>
+     Priority:
+     <select type="text" name="priority" required onChange={(event) => props.change(event)} >
+        <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+             </select>
     </label>
 
         <input type="submit" value="Submit" />
@@ -26,5 +37,5 @@ const AddTaskForm = (props) => {
     </div>
   )
 };
-
+//using "Select as a input for choosing different options in line 28, reference:https://react.dev/reference/react-dom/components/select "
 export default AddTaskForm;

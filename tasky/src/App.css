@@ -49,10 +49,20 @@ div {
   font-size: 0.9rem;
 }
 
-.priority{
+.LowPriority{
   font: 1em sans-serif;
   margin-top: 5px;
-  color: blueviolet;
+  color: rgb(43, 226, 73);
+}
+.MediumPriority{
+  font: 1em sans-serif;
+  margin-top: 5px;
+  color: rgb(226, 162, 43);
+}
+.HighPriority{
+  font: 1em sans-serif;
+  margin-top: 5px;
+  color: rgb(235, 27, 27);
 }
 
 button {
