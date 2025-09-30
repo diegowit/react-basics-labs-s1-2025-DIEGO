@@ -48,3 +48,9 @@ div {
   color: rgb(223, 21, 21);
   font-size: 0.9rem;
 }
+
+.priority{
+  font: 1em sans-serif;
+  margin-top: 5px;
+  color: blueviolet;
+}
